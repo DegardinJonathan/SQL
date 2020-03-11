@@ -1,0 +1,6 @@
+Select * from etu where num not in(Select num from etu2);
++------+--------+-------+
+| num  | nom    | adr   |
++------+--------+-------+
+| 3213 | Dubois | Orsay |
++------+--------+-------+

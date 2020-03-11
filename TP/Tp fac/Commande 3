@@ -1,0 +1,7 @@
+Select nom_ens,count(*) from cours group by nom_ens;
++---------+----------+
+| nom_ens | count(*) |
++---------+----------+
+| Korth   |        2 |
+| Ullman  |        1 |
++---------+----------+

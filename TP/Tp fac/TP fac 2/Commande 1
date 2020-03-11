@@ -1,0 +1,33 @@
+Donner le produit cartésien de la table etu et cours
+Select * from etu inner join cours;
++------+--------+-------+-------+---------+-------+--------+
+| num  | nom    | adr   | code  | nom_ens | salle | prix   |
++------+--------+-------+-------+---------+-------+--------+
+| 2140 | Dupont | Paris | ALGO  | Ullman  |   345 | 180.00 |
+| 2140 | Dupont | Paris | BD    | Korth   |   231 | 200.00 |
+| 2140 | Dupont | Paris | MATHS | Korth   |   125 | 250.00 |
+| 1128 | Durand | Orsay | ALGO  | Ullman  |   345 | 180.00 |
+| 1128 | Durand | Orsay | BD    | Korth   |   231 | 200.00 |
+| 1128 | Durand | Orsay | MATHS | Korth   |   125 | 250.00 |
+| 3213 | Dubois | Orsay | ALGO  | Ullman  |   345 | 180.00 |
+| 3213 | Dubois | Orsay | BD    | Korth   |   231 | 200.00 |
+| 3213 | Dubois | Orsay | MATHS | Korth   |   125 | 250.00 |
++------+--------+-------+-------+---------+-------+--------+
+Comparer votre résultat avec la table suit.
+Select * from etu inner join suit;
++------+--------+-------+------+-------+
+| num  | nom    | adr   | num  | code  |
++------+--------+-------+------+-------+
+| 2140 | Dupont | Paris | 2140 | ALGO  |
+| 1128 | Durand | Orsay | 2140 | ALGO  |
+| 3213 | Dubois | Orsay | 2140 | ALGO  |
+| 2140 | Dupont | Paris | 3213 | BD    |
+| 1128 | Durand | Orsay | 3213 | BD    |
+| 3213 | Dubois | Orsay | 3213 | BD    |
+| 2140 | Dupont | Paris | 2140 | BD    |
+| 1128 | Durand | Orsay | 2140 | BD    |
+| 3213 | Dubois | Orsay | 2140 | BD    |
+| 2140 | Dupont | Paris | 2140 | MATHS |
+| 1128 | Durand | Orsay | 2140 | MATHS |
+| 3213 | Dubois | Orsay | 2140 | MATHS |
++------+--------+-------+------+-------+

@@ -1,0 +1,7 @@
+ Select * from etu where num IN(select num from etu2);
++------+--------+-------+
+| num  | nom    | adr   |
++------+--------+-------+
+| 2140 | Dupont | Paris |
+| 1128 | Durand | Orsay |
++------+--------+-------+

@@ -1,0 +1,10 @@
+Select noart,marque from CLASSE where noart not in 
+(Select * from VENTES);
++-------+-----------------+
+| noart | marque          |
++-------+-----------------+
+| A200  | electrolux      |
+| A400  | schott          |
+| A500  | philips         |
+| A550  | Villeroy & boch |
++-------+-----------------+

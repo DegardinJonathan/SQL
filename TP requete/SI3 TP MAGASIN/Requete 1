@@ -1,0 +1,12 @@
+Select rayon,libelle from SITE where etage not in 
+(Select etage from SITE where etage="3");
++-------+-----------------+
+| rayon | libelle         |
++-------+-----------------+
+| R1    | hifi            |
+| R2    | bricolage       |
+| R3    | electro-menager |
+| R4    | confection      |
+| R6    | chaussures      |
+| R7    | maroquinerie    |
++-------+-----------------+

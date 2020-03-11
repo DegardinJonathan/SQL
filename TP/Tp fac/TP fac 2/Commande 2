@@ -1,0 +1,10 @@
+Select * from etu union select * from etu2;
++------+--------+-------+
+| num  | nom    | adr   |
++------+--------+-------+
+| 2140 | Dupont | Paris |
+| 1128 | Durand | Orsay |
+| 3213 | Dubois | Orsay |
+| 2518 | Smith  | Bures |
++------+--------+-------+
+

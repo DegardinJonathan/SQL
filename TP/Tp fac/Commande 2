@@ -1,0 +1,9 @@
+Select cours.code,nom_ens,salle from etu inner join suit on etu.num=suit.num inner join cours
+on suit.code = cours.code where nom='Dupont';
++-------+---------+-------+
+| code  | nom_ens | salle |
++-------+---------+-------+
+| ALGO  | Ullman  |   345 |
+| BD    | Korth   |   231 |
+| MATHS | Korth   |   125 |
++-------+---------+-------+

@@ -1,0 +1,7 @@
+Select nom from etu where adr='Orsay';
++--------+
+| nom    |
++--------+
+| Durand |
+| Dubois |
++--------+

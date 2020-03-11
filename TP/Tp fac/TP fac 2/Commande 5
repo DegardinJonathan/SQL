@@ -1,0 +1,8 @@
+Select * from etu where num not in 
+(Select num from suit where code="MATHS");
++------+--------+-------+
+| num  | nom    | adr   |
++------+--------+-------+
+| 1128 | Durand | Orsay |
+| 3213 | Dubois | Orsay |
++------+--------+-------+

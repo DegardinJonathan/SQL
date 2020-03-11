@@ -1,0 +1,3 @@
+
+Select * from suit
+where code="MATHS" and where num IN(Select num from suit where code="ALGO");

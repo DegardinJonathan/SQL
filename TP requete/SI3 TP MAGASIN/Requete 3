@@ -1,0 +1,10 @@
+Select qualif,avg(salaire) from EMPLOYE group by qualif;
++---------------+--------------+
+| qualif        | avg(salaire) |
++---------------+--------------+
+| caissiere     |  1250.000000 |
+| chef de rayon |  3466.666667 |
+| directeur     |  6500.000000 |
+| gestionnaire  |  5650.000000 |
+| vendeur       |  2900.000000 |
++---------------+--------------+

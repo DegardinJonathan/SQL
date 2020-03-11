@@ -1,0 +1,16 @@
+Select CLASSE.noart,marque from CLASSE 
+inner join VENTES on CLASSE.noart=VENTES.noart;
++-------+----------+
+| noart | marque   |
++-------+----------+
+| A150  | AEG      |
+| A250  | moulinex |
+| A150  | AEG      |
+| A350  | ellesse  |
+| A150  | AEG      |
+| A300  | kappa    |
+| A450  | vans     |
+| A100  | bosch    |
+| A300  | kappa    |
+| A150  | AEG      |
++-------+----------+
